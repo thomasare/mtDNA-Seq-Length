@@ -1,0 +1,33 @@
+
+RAxML-NG v. 1.0.0 released on 07.08.2020 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: AMD Ryzen 7 3700X 8-Core Processor, 8 cores, 31 GB RAM
+
+RAxML-NG was called at 15-Oct-2020 14:32:04 as follows:
+
+/tmp/.mount_raxmlGx81r7v/resources/static/bin/raxml-ng --all --msa /home/ariane/Documents/PhD/Data/Dene-dogs/analysis/pcdclade/TKWS_Seqotron_align_dogs_partial_mtDNA.fasta --model GTR+FO+I+G --prefix /home/ariane/Documents/PhD/Data/Dene-dogs/analysis/pcdclade/TKWS_Seqotron_align_dogs_partial_mtDNA_1 --seed 123 --bs-metric tbe --tree rand{10} --bs-trees 1000
+
+Analysis options:
+  run mode: ML tree search + bootstrapping (Transfer Bootstrap)
+  start tree(s): random (10)
+  bootstrap replicates: 1000
+  random seed: 123
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+[00:00:00] Reading alignment from file: /home/ariane/Documents/PhD/Data/Dene-dogs/analysis/pcdclade/TKWS_Seqotron_align_dogs_partial_mtDNA.fasta
+[00:00:00] Loaded alignment with 1 taxa and 139391 sites
+
+ERROR: Your alignment contains less than 4 sequences! 
+
+ERROR: Alignment check failed (see details above)!
+

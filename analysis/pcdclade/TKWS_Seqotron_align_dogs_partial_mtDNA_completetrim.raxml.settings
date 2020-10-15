@@ -1,0 +1,6 @@
+Your analaysis was run as follows:
+Analysis: ML + transfer bootstrap expectation + consensus
+Binary: raxml-ng version 1.0.0
+Results saved to: /home/ariane/Documents/PhD/Data/Dene-dogs/analysis/pcdclade
+RAxML was called with these arguments:
+1.) --all --msa /home/ariane/Documents/PhD/Data/Dene-dogs/analysis/pcdclade/TKWS_Seqotron_align_dogs_partial_mtDNA_completetrim.fas --model GTR+FO+I+G --prefix /home/ariane/Documents/PhD/Data/Dene-dogs/analysis/pcdclade/TKWS_Seqotron_align_dogs_partial_mtDNA_completetrim --seed 123 --bs-metric tbe --tree rand{10} --bs-trees 1000
